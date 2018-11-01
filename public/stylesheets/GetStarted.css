@@ -1,0 +1,23 @@
+body{
+    background: darkslategrey;
+    font-family: "Nunito", sans-serif;
+}
+#headingGroup span {
+    color: whitesmoke;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blurb h2 {
+    color: gray();
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: gray();
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
