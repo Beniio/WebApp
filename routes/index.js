@@ -12,4 +12,7 @@ router.get('/homePage', function(req, res, next) {
 router.get('/GetStarted', function(req, res, next) {
     res.render('GetStarted', { title: 'GetStarted' });
 });
+router.get('/example', function(req, res, next) {
+    res.render('example', { title: 'example' });
+});
 module.exports = router;
