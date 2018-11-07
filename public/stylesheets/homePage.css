@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #e8f4eb;
 }
 
 p {
@@ -52,7 +52,7 @@ SIDEBAR STYLE
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #33ff77;
+    background: #88e89c;
     color: #fff !important;
     transition: all 0.3s;
 }
@@ -84,7 +84,7 @@ SIDEBAR STYLE
 }
 
 #sidebar ul li a:hover {
-    color: #33ff77;
+    color: #88e89c;
     background: #fff;
 }
 
@@ -104,7 +104,7 @@ a[aria-expanded="true"]::before {
     display: block;
     position: absolute;
     right: 20px;
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Glyphicons Halflings', serif;
     font-size: 0.6em;
 }
 
